@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../img/c2.jpg');
+    background-repeat: no-repeat;
+}
+
+.container {
+    /* background-color: red; */
+    height: 50em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    /* background-color: red; */
+    padding: 10px;
+}
+
+.container #para {
+    font-size: 20px;
+    color: rgb(17, 0, 255);
+    /* background-color: red; */
+}
