@@ -95,7 +95,7 @@ nav .navigation ul li a:hover {
 
 /*------------- Hero section styling start --------------*/
 #home {
-	background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("img/about-banner.jpg");
+	background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("img/threat5.jpg");
 	width: 100%;
 	height: 100vh;
 	background-size: cover;
@@ -202,7 +202,7 @@ nav .navigation ul li a:hover {
 
 /*------------- Courses section styling start ------------*/
 #course {
-	padding: 8vw 8vw 8vw 8vw;
+	padding: 8vw 8vw 2vw 8vw;
 	text-align: center;
 }
 
@@ -217,18 +217,19 @@ nav .navigation ul li a:hover {
 	text-align: start;
 	background: #edf1f2;
 	height: 100%;
-	position: relative;
+	/* position: relative; */
+	/* display: flex; */
 }
 
 #course .courses img {
 	width: 100%;
-	height: 60%;
+	height: 50%;
 	background-size: cover;
 	background-position: center;
 }
 
 #course .courses .details {
-	padding: 15px 15px 0 15px;
+	padding: 10px 10px 0 10px;
 }
 
 #course .courses .details i {
@@ -253,7 +254,7 @@ nav .navigation ul li a:hover {
 
 
 /*------------- Registration section styling start ----------*/
-#registration {
+/* #registration {
 	padding: 6vw 8vw 6vw 8vw;
 	background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("img/signup.jpg");
 	width: 100%;
@@ -329,7 +330,7 @@ nav .navigation ul li a:hover {
 #registration .form a.yellow:hover {
 	color: rgb(21, 21, 100);
 	background: #fff;
-}
+} */
 
 /*------------- Registration section styling end ----------*/
 
@@ -353,11 +354,13 @@ nav .navigation ul li a:hover {
 	padding: 30px 10px;
 	box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
-#experts .expert-box .profile img{
+
+#experts .expert-box .profile img {
 	height: 100px;
 	width: 100px;
 
 }
+
 #experts .expert-box .profile:hover {
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
@@ -501,6 +504,7 @@ footer .copyright .pro-links i:hover {
 
 	#menu-btn {
 		display: initial;
+		cursor: pointer;
 	}
 
 	#menu-close {
@@ -508,6 +512,7 @@ footer .copyright .pro-links i:hover {
 		font-size: 1.6rem;
 		color: #fff;
 		padding: 30px 0 20px 20px;
+		cursor: pointer;
 	}
 
 	nav .navigation ul {
